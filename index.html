@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periféricos Gamers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Periféricos Gamers</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#">Início</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Teclados</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Mouses</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Headsets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mt-4">
+        <section class="mb-4">
+            <h2>Teclados Gamers</h2>
+            <img src="images/pro-k1.jpg" alt="Teclado Gamer" class="img-fluid mb-2">
+            <p>Os teclados gamers oferecem uma experiência de digitação superior com teclas mecânicas e iluminação RGB.</p>
+        </section>
+
+        <section class="mb-4">
+            <h2>Mouses Gamers</h2>
+            <img src="images/136201021165bbea02e4d762.61051249.1706813954_l.png" alt="Mouse Gamer" class="img-fluid mb-2">
+            <p>Mouses gamers são projetados para alta precisão e conforto, com várias opções de personalização.</p>
+        </section>
+
+        <section class="mb-4">
+            <h2>Headsets Gamers</h2>
+            <img src="images/03.webp" alt="Headset Gamer" class="img-fluid mb-2">
+            <p>Headsets gamers proporcionam som envolvente e comunicação clara, essenciais para jogos multiplayer.</p>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; <span id="ano"></span> Periféricos Gamers. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById('ano').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
